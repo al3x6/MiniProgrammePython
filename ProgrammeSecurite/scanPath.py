@@ -1,5 +1,3 @@
-### Scanner les vulnérabilité d'un site
-
 import requests
 
 def check_directory_traversal(url):
