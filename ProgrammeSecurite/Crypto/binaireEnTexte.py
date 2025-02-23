@@ -1,4 +1,3 @@
-# Binary message provided
 binaire_message = [
     "01100010", "01101001", "01100101", "01101110", "00100000",
     "01101010", "01101111", "01110101", "11000011", "10101001",
@@ -9,7 +8,5 @@ binaire_message = [
     "00110001", "01010010", "00110011"
 ]
 
-
-# Convert binary to text
 binaire_en_texte = ''.join(chr(int(bit, 2)) for bit in binaire_message)
 print(binaire_en_texte)
