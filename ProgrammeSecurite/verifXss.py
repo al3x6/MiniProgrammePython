@@ -28,7 +28,6 @@ if __name__ == "__main__":
     check_xss_vulnerability(target_url)
 
 
-
 # import requests
 # from bs4 import BeautifulSoup
 # import urllib.parse
@@ -96,10 +95,12 @@ if __name__ == "__main__":
 #                     print(f"💥 XSS détectée : {test_url} (paramètre {param})")
 #                 elif urllib.parse.quote(payload) in r.text:
 #                     print(f"⚠️ Potentielle XSS encodée : {test_url} (paramètre {param})")
+#                 else:
+#                     print(f"✅ Rien trouvé sur {test_url} (paramètre {param})")
 #             except:
 #                 pass
 #
 # if __name__ == "__main__":
-#     target = input("Entrez une URL (ex: https://www.alexisaraujo.fr/): ")
+#     target = input("Entrez une URL (ex: http://example.com/search): ")
 #     domain = urllib.parse.urlparse(target).netloc
 #     crawl_and_test(target, domain)
